@@ -8,10 +8,10 @@ namespace Webtest
         [Fact]
         public void DemoTest()
         {
-            int i = 1;
+            int i = 2;
             bool result = false;
-            if (i == 1) result = true;
-            Assert.True(result, "Value should be equal to 1");
+            if (i == 2) result = true;
+            Assert.True(result, "Value should be equal to 2");
         }
     }
 }
